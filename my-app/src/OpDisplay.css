@@ -1,0 +1,10 @@
+.opdisplay{
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 15pt;
+    background-color: rgb(230, 230, 230);
+    color: black;
+    padding: 10px;
+}

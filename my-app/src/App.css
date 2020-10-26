@@ -8,7 +8,7 @@
 
 .calc-wrapper { 
   width: 400px;
-  height: 400px;
+  height: auto;
 }
 
 .row {
@@ -16,8 +16,32 @@
   width: 100%;
 }
 
-.equal {
+.general-content{
+  width: 800px;
+  border-color: black;
+}
+
+.calculator-side{
+  float: left;
+}
+
+.memory-side{
+  float: right;
+  width: 49.5%;
+  height: 490px;
+  background-color: rgb(230, 230, 230);
+  text-align: center;
+  border-color: white;
+}
+
+.memory-title{
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 20pt;
   background-color: black;
-  color: aqua;
-  font-weight: bold;
+  color:aqua;
+  padding: 10px;
 }
